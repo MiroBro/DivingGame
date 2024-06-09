@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: ea56cb41be705b04999b4c6ee0014af3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3416510734312366276
+    second: WitchOutfits_0
+  - first:
+      213: 7701697761041471653
+    second: WitchOutfits_1
+  - first:
+      213: -6404565871651889651
+    second: WitchOutfits_2
+  - first:
+      213: 2549402388869758504
+    second: WitchOutfits_3
+  - first:
+      213: -3099977493998229142
+    second: WitchOutfits_4
+  - first:
+      213: 5439701474476474868
+    second: WitchOutfits_5
+  - first:
+      213: 246750348626869095
+    second: WitchOutfits_6
+  - first:
+      213: 6488965477842296268
+    second: WitchOutfits_7
+  - first:
+      213: 7880126679501423118
+    second: WitchOutfits_8
+  - first:
+      213: -5035075157885081143
+    second: WitchOutfits_9
+  - first:
+      213: -7118183950991279941
+    second: WitchOutfits_10
+  - first:
+      213: 5218437833958889258
+    second: WitchOutfits_11
+  - first:
+      213: -390356852285791207
+    second: WitchOutfits_12
+  - first:
+      213: 6956767133942220555
+    second: WitchOutfits_13
+  - first:
+      213: 1872430625778884216
+    second: WitchOutfits_14
+  - first:
+      213: -6590774157716607921
+    second: WitchOutfits_15
+  - first:
+      213: 3548581498661062428
+    second: WitchOutfits_16
+  - first:
+      213: -7319009918928718026
+    second: WitchOutfits_17
+  - first:
+      213: -1303867474384039187
+    second: WitchOutfits_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WitchOutfits_0
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1031
+        width: 982
+        height: 1484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f900ea69d1690d0800000000000000
+      internalID: -3416510734312366276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_1
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1526
+        width: 561
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a85c4eee4de1ea60800000000000000
+      internalID: 7701697761041471653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_2
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1917
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e5997c5496e17a0800000000000000
+      internalID: -6404565871651889651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_3
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1584
+        width: 650
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e3d1227fb416320800000000000000
+      internalID: 2549402388869758504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_4
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 1866
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69a782c4eaaaf4d0800000000000000
+      internalID: -3099977493998229142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_5
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 1533
+        width: 502
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1c6569ba3bd7b40800000000000000
+      internalID: 5439701474476474868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_6
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1801
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bbb1e7222ac6300800000000000000
+      internalID: 246750348626869095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1595
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd109ad8bf6d0a50800000000000000
+      internalID: 6488965477842296268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_8
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 959
+        width: 556
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c2ccd675db5d60800000000000000
+      internalID: 7880126679501423118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_9
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1533
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9add422d1df1ab0800000000000000
+      internalID: -5035075157885081143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_10
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 141
+        width: 1066
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8374b0961273d90800000000000000
+      internalID: -7118183950991279941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_11
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1518
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27149fbf8d9b6840800000000000000
+      internalID: 5218437833958889258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 202
+        width: 778
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914add3d28c259af0800000000000000
+      internalID: -390356852285791207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_13
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 182
+        width: 585
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b070dbb89d66b8060800000000000000
+      internalID: 6956767133942220555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_14
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 0
+        width: 586
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87edc1ccbb53cf910800000000000000
+      internalID: 1872430625778884216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_15
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 805
+        width: 536
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c2a7ea2ddd884a0800000000000000
+      internalID: -6590774157716607921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_16
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 141
+        width: 608
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17473462181f3130800000000000000
+      internalID: 3548581498661062428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_17
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 610
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63771baa147ad6a90800000000000000
+      internalID: -7319009918928718026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchOutfits_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 584
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de25723b07bb7ede0800000000000000
+      internalID: -1303867474384039187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WitchOutfits_0: -3416510734312366276
+      WitchOutfits_1: 7701697761041471653
+      WitchOutfits_10: -7118183950991279941
+      WitchOutfits_11: 5218437833958889258
+      WitchOutfits_12: -390356852285791207
+      WitchOutfits_13: 6956767133942220555
+      WitchOutfits_14: 1872430625778884216
+      WitchOutfits_15: -6590774157716607921
+      WitchOutfits_16: 3548581498661062428
+      WitchOutfits_17: -7319009918928718026
+      WitchOutfits_18: -1303867474384039187
+      WitchOutfits_2: -6404565871651889651
+      WitchOutfits_3: 2549402388869758504
+      WitchOutfits_4: -3099977493998229142
+      WitchOutfits_5: 5439701474476474868
+      WitchOutfits_6: 246750348626869095
+      WitchOutfits_7: 6488965477842296268
+      WitchOutfits_8: 7880126679501423118
+      WitchOutfits_9: -5035075157885081143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

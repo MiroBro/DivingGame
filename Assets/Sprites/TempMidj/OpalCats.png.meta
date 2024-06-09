@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: cd1dec0946383e84897a628bfa36405d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 642126181536514137
+    second: OpalCats_0
+  - first:
+      213: -3923667989202087362
+    second: OpalCats_1
+  - first:
+      213: -6256414485362976568
+    second: OpalCats_2
+  - first:
+      213: -8257028242759590481
+    second: OpalCats_3
+  - first:
+      213: -5357595511494766572
+    second: OpalCats_4
+  - first:
+      213: 8505881480163490263
+    second: OpalCats_5
+  - first:
+      213: -3008265381905881696
+    second: OpalCats_6
+  - first:
+      213: 8182036841199465168
+    second: OpalCats_7
+  - first:
+      213: -6205955575352548704
+    second: OpalCats_8
+  - first:
+      213: 4687163285080749146
+    second: OpalCats_9
+  - first:
+      213: 2228937603175440272
+    second: OpalCats_10
+  - first:
+      213: -956182087734312702
+    second: OpalCats_11
+  - first:
+      213: -4882707166647094190
+    second: OpalCats_12
+  - first:
+      213: 463296247046464857
+    second: OpalCats_13
+  - first:
+      213: 4465197866365270903
+    second: OpalCats_14
+  - first:
+      213: 2656506584019827682
+    second: OpalCats_15
+  - first:
+      213: -1447355367873273530
+    second: OpalCats_16
+  - first:
+      213: -2666754323309679053
+    second: OpalCats_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OpalCats_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 651
+        width: 538
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95046772c5a49e800800000000000000
+      internalID: 642126181536514137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1054
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32d90790c45c89c0800000000000000
+      internalID: -3923667989202087362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 628
+        width: 567
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8d4586c20cc29a0800000000000000
+      internalID: -6256414485362976568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_3
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 628
+        width: 494
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad52f19f84296d80800000000000000
+      internalID: -8257028242759590481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_4
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 651
+        width: 329
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410902f944ff5a5b0800000000000000
+      internalID: -5357595511494766572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_5
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 83
+        width: 206
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9f7bed326fa0670800000000000000
+      internalID: 8505881480163490263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_6
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 28
+        width: 534
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a52569d29e7046d0800000000000000
+      internalID: -3008265381905881696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_7
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 28
+        width: 499
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d27ad2282f6c8170800000000000000
+      internalID: 8182036841199465168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_8
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 425
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a147e84400e9a0800000000000000
+      internalID: -6205955575352548704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_9
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 28
+        width: 522
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54bd739c262c0140800000000000000
+      internalID: 4687163285080749146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_10
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 437
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f58cfc0f6ceee10800000000000000
+      internalID: 2228937603175440272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_11
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 430
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20141001575fab2f0800000000000000
+      internalID: -956182087734312702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 83
+        width: 646
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254febd93b32d3cb0800000000000000
+      internalID: -4882707166647094190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 79
+        width: 274
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955e9f66b75fd6600800000000000000
+      internalID: 463296247046464857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_14
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 403
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bb8844dc197fd30800000000000000
+      internalID: 4465197866365270903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_15
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 395
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebfcf3d9aecdd420800000000000000
+      internalID: 2656506584019827682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_16
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 260
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641a82a16f5f9ebe0800000000000000
+      internalID: -1447355367873273530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpalCats_17
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 0
+        width: 99
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ea3ef6219cdfad0800000000000000
+      internalID: -2666754323309679053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OpalCats_0: 642126181536514137
+      OpalCats_1: -3923667989202087362
+      OpalCats_10: 2228937603175440272
+      OpalCats_11: -956182087734312702
+      OpalCats_12: -4882707166647094190
+      OpalCats_13: 463296247046464857
+      OpalCats_14: 4465197866365270903
+      OpalCats_15: 2656506584019827682
+      OpalCats_16: -1447355367873273530
+      OpalCats_17: -2666754323309679053
+      OpalCats_2: -6256414485362976568
+      OpalCats_3: -8257028242759590481
+      OpalCats_4: -5357595511494766572
+      OpalCats_5: 8505881480163490263
+      OpalCats_6: -3008265381905881696
+      OpalCats_7: 8182036841199465168
+      OpalCats_8: -6205955575352548704
+      OpalCats_9: 4687163285080749146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

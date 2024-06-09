@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 5360cdc304260f74ca9e9ebaf823372b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2310291874839785221
+    second: tempUnderwaterFlora_0
+  - first:
+      213: 2295502165541129109
+    second: tempUnderwaterFlora_1
+  - first:
+      213: 2962728861807690408
+    second: tempUnderwaterFlora_2
+  - first:
+      213: -1144985786436617299
+    second: tempUnderwaterFlora_3
+  - first:
+      213: 9173293718371191881
+    second: tempUnderwaterFlora_4
+  - first:
+      213: -5982953426142381574
+    second: tempUnderwaterFlora_5
+  - first:
+      213: -7118696114062286231
+    second: tempUnderwaterFlora_6
+  - first:
+      213: 1615686106836703587
+    second: tempUnderwaterFlora_7
+  - first:
+      213: -7852463847819591626
+    second: tempUnderwaterFlora_8
+  - first:
+      213: -3443124461463432736
+    second: tempUnderwaterFlora_9
+  - first:
+      213: -1916234937095928815
+    second: tempUnderwaterFlora_10
+  - first:
+      213: -2835586437506852350
+    second: tempUnderwaterFlora_11
+  - first:
+      213: 5066850322523312044
+    second: tempUnderwaterFlora_12
+  - first:
+      213: -4877266658381257379
+    second: tempUnderwaterFlora_13
+  - first:
+      213: -7407548728608351179
+    second: tempUnderwaterFlora_14
+  - first:
+      213: -7294770483088438343
+    second: tempUnderwaterFlora_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reef fingers
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1054
+        width: 218
+        height: 202
+      alignment: 9
+      pivot: {x: 0.51395506, y: 0.02560032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a248ddd33abd1920800000000000000
+      internalID: 2962728861807690408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral tubes
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1058
+        width: 193
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06876271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabf29e5e713c10f0800000000000000
+      internalID: -1144985786436617299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seaweed
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 830
+        width: 182
+        height: 396
+      alignment: 9
+      pivot: {x: 0.44985408, y: 0.019857233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9b317de8748fca0800000000000000
+      internalID: -5982953426142381574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea grass
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 804
+        width: 279
+        height: 223
+      alignment: 9
+      pivot: {x: 0.47274035, y: 0.04299037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369198234f11c6610800000000000000
+      internalID: 1615686106836703587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom anemone
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 762
+        width: 241
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5252465, y: 0.17205839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630cd1b0cb1760390800000000000000
+      internalID: -7852463847819591626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide seaweed
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 804
+        width: 179
+        height: 392
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.026598716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e193057b809730d0800000000000000
+      internalID: -3443124461463432736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star grass
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 570
+        width: 169
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5360023, y: 0.060754135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11444343a7a2865e0800000000000000
+      internalID: -1916234937095928815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coral dress
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 563
+        width: 315
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5193156, y: 0.033301614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a1d7e9829f5a8d0800000000000000
+      internalID: -2835586437506852350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob sea grass
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 471
+        width: 134
+        height: 286
+      alignment: 9
+      pivot: {x: 0.47729766, y: 0.02665305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf4314e581115640800000000000000
+      internalID: 5066850322523312044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob stars
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 565
+        width: 133
+        height: 185
+      alignment: 9
+      pivot: {x: 0.6601154, y: 0.06422746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d552458a0d7705cb0800000000000000
+      internalID: -4877266658381257379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink soft grass
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 228
+        width: 136
+        height: 261
+      alignment: 9
+      pivot: {x: 0.45526206, y: 0.045420446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c17ee9da9133990800000000000000
+      internalID: -7407548728608351179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink soft seaweed
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5
+        width: 194
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5627256, y: 0.030164318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb428d15e4c3ca90800000000000000
+      internalID: -7294770483088438343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5c93d2297c6295944b0e19e3e43bb873
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Coral tubes: -1144985786436617299
+      Seaweed: -5982953426142381574
+      blob sea grass: 5066850322523312044
+      blob stars: -4877266658381257379
+      coral dress: -2835586437506852350
+      mushroom anemone: -7852463847819591626
+      pink soft grass: -7407548728608351179
+      pink soft seaweed: -7294770483088438343
+      reef fingers: 2962728861807690408
+      sea grass: 1615686106836703587
+      star grass: -1916234937095928815
+      tempUnderwaterFlora_0: -2310291874839785221
+      tempUnderwaterFlora_1: 2295502165541129109
+      wide seaweed: -3443124461463432736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

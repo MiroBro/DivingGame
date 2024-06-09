@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 53515c74405a3c74da822bfe1ca0a4ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8807164042935407518
+    second: GalaxyCats_0
+  - first:
+      213: 5412550763670498012
+    second: GalaxyCats_1
+  - first:
+      213: 7002006848949774779
+    second: GalaxyCats_2
+  - first:
+      213: -4217880176258483169
+    second: GalaxyCats_3
+  - first:
+      213: -7108446724002110241
+    second: GalaxyCats_4
+  - first:
+      213: 5661357499115935474
+    second: GalaxyCats_5
+  - first:
+      213: -5399488870977732820
+    second: GalaxyCats_6
+  - first:
+      213: 4912831025873380621
+    second: GalaxyCats_7
+  - first:
+      213: -1611346545628780800
+    second: GalaxyCats_8
+  - first:
+      213: -5828384384185752629
+    second: GalaxyCats_9
+  - first:
+      213: -4971158720668747158
+    second: GalaxyCats_10
+  - first:
+      213: -759476844373582893
+    second: GalaxyCats_11
+  - first:
+      213: -4821578559977705197
+    second: GalaxyCats_12
+  - first:
+      213: 8344872362248117348
+    second: GalaxyCats_13
+  - first:
+      213: -1796616982142396985
+    second: GalaxyCats_14
+  - first:
+      213: -1208198635891675142
+    second: GalaxyCats_15
+  - first:
+      213: 5003809521397864450
+    second: GalaxyCats_16
+  - first:
+      213: 4485761699975688280
+    second: GalaxyCats_17
+  - first:
+      213: 2773928900616345834
+    second: GalaxyCats_18
+  - first:
+      213: 2498002768027768736
+    second: GalaxyCats_19
+  - first:
+      213: -7561665660236559240
+    second: GalaxyCats_20
+  - first:
+      213: -7188407772466581492
+    second: GalaxyCats_21
+  - first:
+      213: -8816262807829012430
+    second: GalaxyCats_22
+  - first:
+      213: 8404915568972115775
+    second: GalaxyCats_23
+  - first:
+      213: 8191904404127541554
+    second: GalaxyCats_24
+  - first:
+      213: 3323895394818706877
+    second: GalaxyCats_25
+  - first:
+      213: 2526606430580893569
+    second: GalaxyCats_26
+  - first:
+      213: 4297137147807572216
+    second: GalaxyCats_27
+  - first:
+      213: 1735676304005488565
+    second: GalaxyCats_28
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GalaxyCats_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2021
+        width: 553
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9312c1e805593a70800000000000000
+      internalID: 8807164042935407518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_1
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2066
+        width: 365
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda695d1e3e3d1b40800000000000000
+      internalID: 5412550763670498012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_2
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 2066
+        width: 633
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9e08281202c2160800000000000000
+      internalID: 7002006848949774779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_3
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 2066
+        width: 359
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c73f4b3541775c0800000000000000
+      internalID: -4217880176258483169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1835
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4a01fdd59b95d90800000000000000
+      internalID: -7108446724002110241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1464
+        width: 669
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f69c4976ae219e40800000000000000
+      internalID: 5661357499115935474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1464
+        width: 486
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f72b4ca792115b0800000000000000
+      internalID: -5399488870977732820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_7
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1464
+        width: 357
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0563bae9c1ed2440800000000000000
+      internalID: 4912831025873380621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1791
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0076eb1aad853a9e0800000000000000
+      internalID: -1611346545628780800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 801
+        width: 670
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3ac2e584b6d1fa0800000000000000
+      internalID: -5828384384185752629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_10
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 801
+        width: 669
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a347c5b75e20bb0800000000000000
+      internalID: -4971158720668747158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_11
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1178
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db5afb75dbc575f0800000000000000
+      internalID: -759476844373582893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_12
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 801
+        width: 582
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311b3e378df461db0800000000000000
+      internalID: -4821578559977705197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_13
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 786
+        width: 649
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c16cf4331fec370800000000000000
+      internalID: 8344872362248117348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_14
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1161
+        width: 74
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5d7f5af522117e0800000000000000
+      internalID: -1796616982142396985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_15
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1154
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affa091fdbd9b3fe0800000000000000
+      internalID: -1208198635891675142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 100
+        width: 501
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20813a69f3a117540800000000000000
+      internalID: 5003809521397864450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 573
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8507a12ef70a04e30800000000000000
+      internalID: 4485761699975688280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 579
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae85d6163a9fe7620800000000000000
+      internalID: 2773928900616345834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_19
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 588
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7dc345840baa220800000000000000
+      internalID: 2498002768027768736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_20
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 107
+        width: 341
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c845b35219f0790800000000000000
+      internalID: -7561665660236559240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_21
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 100
+        width: 439
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00f87d7735ad3c90800000000000000
+      internalID: -7188407772466581492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_22
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 107
+        width: 512
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2302dd4dfa756a580800000000000000
+      internalID: -8816262807829012430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 568
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fabb7cd2244a470800000000000000
+      internalID: 8404915568972115775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 542
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239eaf927ad7fa170800000000000000
+      internalID: 8191904404127541554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 538
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdc9b63049d02e20800000000000000
+      internalID: 3323895394818706877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_26
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 107
+        width: 453
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187edfd792f401320800000000000000
+      internalID: 2526606430580893569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_27
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 424
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0a43ef77f72ab30800000000000000
+      internalID: 4297137147807572216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalaxyCats_28
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 402
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf5f49076c561810800000000000000
+      internalID: 1735676304005488565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GalaxyCats_0: 8807164042935407518
+      GalaxyCats_1: 5412550763670498012
+      GalaxyCats_10: -4971158720668747158
+      GalaxyCats_11: -759476844373582893
+      GalaxyCats_12: -4821578559977705197
+      GalaxyCats_13: 8344872362248117348
+      GalaxyCats_14: -1796616982142396985
+      GalaxyCats_15: -1208198635891675142
+      GalaxyCats_16: 5003809521397864450
+      GalaxyCats_17: 4485761699975688280
+      GalaxyCats_18: 2773928900616345834
+      GalaxyCats_19: 2498002768027768736
+      GalaxyCats_2: 7002006848949774779
+      GalaxyCats_20: -7561665660236559240
+      GalaxyCats_21: -7188407772466581492
+      GalaxyCats_22: -8816262807829012430
+      GalaxyCats_23: 8404915568972115775
+      GalaxyCats_24: 8191904404127541554
+      GalaxyCats_25: 3323895394818706877
+      GalaxyCats_26: 2526606430580893569
+      GalaxyCats_27: 4297137147807572216
+      GalaxyCats_28: 1735676304005488565
+      GalaxyCats_3: -4217880176258483169
+      GalaxyCats_4: -7108446724002110241
+      GalaxyCats_5: 5661357499115935474
+      GalaxyCats_6: -5399488870977732820
+      GalaxyCats_7: 4912831025873380621
+      GalaxyCats_8: -1611346545628780800
+      GalaxyCats_9: -5828384384185752629
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

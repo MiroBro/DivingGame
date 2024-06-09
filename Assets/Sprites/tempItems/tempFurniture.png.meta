@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: 6298dc1eeb1589f45a2ab751e9d03449
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6824763026712954880
+    second: tempFurniture_0
+  - first:
+      213: -9011140177357861902
+    second: tempFurniture_1
+  - first:
+      213: 7124118835387741208
+    second: tempFurniture_2
+  - first:
+      213: -1092090835113624250
+    second: tempFurniture_3
+  - first:
+      213: 6207227359276621165
+    second: tempFurniture_4
+  - first:
+      213: -210927005262742186
+    second: tempFurniture_5
+  - first:
+      213: 5516748697468606670
+    second: tempFurniture_6
+  - first:
+      213: -2620043441449623211
+    second: tempFurniture_7
+  - first:
+      213: 7331863358079204049
+    second: tempFurniture_8
+  - first:
+      213: -6059938549324436457
+    second: tempFurniture_9
+  - first:
+      213: -3871476315899350523
+    second: tempFurniture_10
+  - first:
+      213: 8683511014827315323
+    second: tempFurniture_11
+  - first:
+      213: 7839204892785493605
+    second: tempFurniture_12
+  - first:
+      213: 4559811973731679283
+    second: tempFurniture_13
+  - first:
+      213: -6771110339105622691
+    second: tempFurniture_14
+  - first:
+      213: -4278876705852011821
+    second: tempFurniture_15
+  - first:
+      213: 4558018214326396122
+    second: tempFurniture_16
+  - first:
+      213: 707211487291088310
+    second: tempFurniture_17
+  - first:
+      213: -2258315767590207197
+    second: tempFurniture_18
+  - first:
+      213: 6003354809439412314
+    second: tempFurniture_19
+  - first:
+      213: 8108736124120652504
+    second: tempFurniture_20
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chandelier
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1285
+        width: 232
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008027b40dd66be50800000000000000
+      internalID: 6824763026712954880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall lamp
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1468
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb855370cff1f280800000000000000
+      internalID: -9011140177357861902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor lamp
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1359
+        width: 87
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b4f8e554fdd260800000000000000
+      internalID: 7124118835387741208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Table lamp
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1454
+        width: 66
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db79eeb2d18d0f0800000000000000
+      internalID: -1092090835113624250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside lamp small
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1426
+        width: 81
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd4cd5560842650800000000000000
+      internalID: 6207227359276621165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside lamp big
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1255
+        width: 107
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65df6c99103a21df0800000000000000
+      internalID: -210927005262742186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside lamp small2
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1398
+        width: 82
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec817bb16bd6f8c40800000000000000
+      internalID: 5516748697468606670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1392
+        width: 123
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551ad402f5cb3abd0800000000000000
+      internalID: -2620043441449623211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 996
+        width: 351
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da7308d0e200c560800000000000000
+      internalID: 7331863358079204049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pet bed
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1001
+        width: 419
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c22de0ff5c6eba0800000000000000
+      internalID: -6059938549324436457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 996
+        width: 423
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5023b7a7dc0c54ac0800000000000000
+      internalID: -3871476315899350523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabinet
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 648
+        width: 252
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7059f1c247028870800000000000000
+      internalID: 8683511014827315323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bookshelf
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 579
+        width: 170
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566cbfbe0537acc60800000000000000
+      internalID: 7839204892785493605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chair
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 722
+        width: 145
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c79d8c4d4b74f30800000000000000
+      internalID: 4559811973731679283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Table
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 728
+        width: 380
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5572ae750f2802a0800000000000000
+      internalID: -6771110339105622691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 306
+        width: 298
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4ff57e406e94c0800000000000000
+      internalID: -4278876705852011821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpet
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 431
+        width: 364
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad46fa0aa65514f30800000000000000
+      internalID: 4558018214326396122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Curtain
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 358
+        width: 118
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd9f09c91580d900800000000000000
+      internalID: 707211487291088310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 489
+        width: 196
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3214f1246c9d8a0e0800000000000000
+      internalID: -2258315767590207197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 26
+        width: 209
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50e44d5463305350800000000000000
+      internalID: 6003354809439412314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shelf
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 268
+        width: 254
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dad69ffa84088070800000000000000
+      internalID: 8108736124120652504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireplace
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 10
+        width: 257
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f815f391090014d4590af1189844be45
+      internalID: -653436365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c641d94a4bfa7954fb997712c12963c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bed: 7331863358079204049
+      Bookshelf: 7839204892785493605
+      Cabinet: 8683511014827315323
+      Carpet: 4558018214326396122
+      Cauldron: -4278876705852011821
+      Chair: 4559811973731679283
+      Chandelier: 6824763026712954880
+      Curtain: 707211487291088310
+      Fireplace: -653436365
+      Floor lamp: 7124118835387741208
+      Outside lamp big: -210927005262742186
+      Outside lamp small: 6207227359276621165
+      Outside lamp small2: 5516748697468606670
+      Painting: -2258315767590207197
+      Pet bed: -6059938549324436457
+      Plant: -2620043441449623211
+      Shelf: 8108736124120652504
+      Sofa: -3871476315899350523
+      Table: -6771110339105622691
+      Table lamp: -1092090835113624250
+      Wall lamp: -9011140177357861902
+      Window: 6003354809439412314
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

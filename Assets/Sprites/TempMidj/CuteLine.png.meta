@@ -1,0 +1,1337 @@
+fileFormatVersion: 2
+guid: 94ade91b48249f94e925e66091cdf768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4219554164587767012
+    second: CuteLine_0
+  - first:
+      213: -1036325672238324370
+    second: CuteLine_1
+  - first:
+      213: -4586753381439132475
+    second: CuteLine_2
+  - first:
+      213: 5821152104018980819
+    second: CuteLine_3
+  - first:
+      213: -3678365412579235464
+    second: CuteLine_4
+  - first:
+      213: -8754944263625333465
+    second: CuteLine_5
+  - first:
+      213: 8553190134566529735
+    second: CuteLine_6
+  - first:
+      213: 6609625900231487153
+    second: CuteLine_7
+  - first:
+      213: 949069257301933478
+    second: CuteLine_8
+  - first:
+      213: 8636808943750455479
+    second: CuteLine_9
+  - first:
+      213: -1057812934934300269
+    second: CuteLine_10
+  - first:
+      213: -6961915259440499927
+    second: CuteLine_11
+  - first:
+      213: 7875791538172446282
+    second: CuteLine_12
+  - first:
+      213: -6126206011214834892
+    second: CuteLine_13
+  - first:
+      213: 8485797554323257259
+    second: CuteLine_14
+  - first:
+      213: 5573245528620904733
+    second: CuteLine_15
+  - first:
+      213: 539001725325827419
+    second: CuteLine_16
+  - first:
+      213: 2638921575853547603
+    second: CuteLine_17
+  - first:
+      213: 1675005859816962343
+    second: CuteLine_18
+  - first:
+      213: -3389556956264298080
+    second: CuteLine_19
+  - first:
+      213: -2365778165745404003
+    second: CuteLine_20
+  - first:
+      213: 2582430994924737321
+    second: CuteLine_21
+  - first:
+      213: -3150836457185227059
+    second: CuteLine_22
+  - first:
+      213: -3329226414686523244
+    second: CuteLine_23
+  - first:
+      213: -6269717776490760958
+    second: CuteLine_24
+  - first:
+      213: 5507154513420385967
+    second: CuteLine_25
+  - first:
+      213: -7988465282045763290
+    second: CuteLine_26
+  - first:
+      213: -6823024676703618122
+    second: CuteLine_27
+  - first:
+      213: 1916810274671962935
+    second: CuteLine_28
+  - first:
+      213: 5149933807525909483
+    second: CuteLine_29
+  - first:
+      213: 36744179655355126
+    second: CuteLine_30
+  - first:
+      213: 2206634317490189909
+    second: CuteLine_31
+  - first:
+      213: -6702658687800515662
+    second: CuteLine_32
+  - first:
+      213: 7581319937155494590
+    second: CuteLine_33
+  - first:
+      213: -4769716851167113232
+    second: CuteLine_34
+  - first:
+      213: 3063768456483265553
+    second: CuteLine_35
+  - first:
+      213: 1876243146213636870
+    second: CuteLine_36
+  - first:
+      213: 2463002146350714527
+    second: CuteLine_37
+  - first:
+      213: -7890846659639682449
+    second: CuteLine_38
+  - first:
+      213: -363641335864277365
+    second: CuteLine_39
+  - first:
+      213: 6279020336163781804
+    second: CuteLine_40
+  - first:
+      213: -966683585951531711
+    second: CuteLine_41
+  - first:
+      213: 3816298732947331773
+    second: CuteLine_42
+  - first:
+      213: 7901654574036584623
+    second: CuteLine_43
+  - first:
+      213: 8958543868895385405
+    second: CuteLine_44
+  - first:
+      213: 9192370218880776262
+    second: CuteLine_45
+  - first:
+      213: 4915475418455219018
+    second: CuteLine_46
+  - first:
+      213: 5713907576490371690
+    second: CuteLine_47
+  - first:
+      213: -7412162466661601869
+    second: CuteLine_48
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CuteLine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bd93de7d12175c0800000000000000
+      internalID: -4219554164587767012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ed92ba4b3e91f0800000000000000
+      internalID: -1036325672238324370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 70
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccaffae9149850c0800000000000000
+      internalID: -4586753381439132475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfa19f2ff2e8c050800000000000000
+      internalID: 5821152104018980819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 70
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879a1256522d3fcc0800000000000000
+      internalID: -3678365412579235464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725a442f390308680800000000000000
+      internalID: -8754944263625333465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa6335c1903b670800000000000000
+      internalID: 8553190134566529735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bee489acbb1abb50800000000000000
+      internalID: 6609625900231487153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_8
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adb9bc0675cb2d00800000000000000
+      internalID: 949069257301933478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_9
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0a92d79fb1cd770800000000000000
+      internalID: 8636808943750455479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_10
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 70
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3997d6e7db4e151f0800000000000000
+      internalID: -1057812934934300269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_11
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 70
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9237da415fe426f90800000000000000
+      internalID: -6961915259440499927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_12
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46cbcd1dae6c4d60800000000000000
+      internalID: 7875791538172446282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4335da047185bfaa0800000000000000
+      internalID: -6126206011214834892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_14
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 70
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7f05d7aeb93c570800000000000000
+      internalID: 8485797554323257259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_15
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11bb7ba745285d40800000000000000
+      internalID: 5573245528620904733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_16
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 67
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d5e53a63bea7700800000000000000
+      internalID: 539001725325827419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_17
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 46
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3506dde01355f9420800000000000000
+      internalID: 2638921575853547603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_18
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 64
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729761774f0de3710800000000000000
+      internalID: 1675005859816962343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_19
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 62
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a989eb28efd5f0d0800000000000000
+      internalID: -3389556956264298080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_20
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 62
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97be5dea411b2fd0800000000000000
+      internalID: -2365778165745404003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_21
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 27
+        width: 246
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923927dbe43a6d320800000000000000
+      internalID: 2582430994924737321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_22
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcecf10afeaf544d0800000000000000
+      internalID: -3150836457185227059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_23
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49033cff6363cc1d0800000000000000
+      internalID: -3329226414686523244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_24
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 3
+        width: 163
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205f05296ec7df8a0800000000000000
+      internalID: -6269717776490760958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_25
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 72
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae7c9f0ad75d6c40800000000000000
+      internalID: 5507154513420385967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_26
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 73
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6212f139625432190800000000000000
+      internalID: -7988465282045763290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_27
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 24
+        width: 264
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3b5bd43fbf41a0800000000000000
+      internalID: -6823024676703618122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_28
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 59
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b24a30ac0e99a10800000000000000
+      internalID: 1916810274671962935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_29
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 62
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be35b5e238d387740800000000000000
+      internalID: 5149933807525909483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_30
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faabeff2aa828000800000000000000
+      internalID: 36744179655355126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_31
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5567033783a8f9e10800000000000000
+      internalID: 2206634317490189909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_32
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3e6f68f6f5bf2a0800000000000000
+      internalID: -6702658687800515662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_33
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 70
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb27db6b052463960800000000000000
+      internalID: 7581319937155494590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_34
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4dfe7bcf8ecdb0800000000000000
+      internalID: -4769716851167113232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_35
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c5bbabd21b48a20800000000000000
+      internalID: 3063768456483265553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_36
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b33526331c90a10800000000000000
+      internalID: 1876243146213636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_37
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e424e07675e2220800000000000000
+      internalID: 2463002146350714527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_38
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a591345c41e7290800000000000000
+      internalID: -7890846659639682449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_39
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b864926b12614faf0800000000000000
+      internalID: -363641335864277365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_40
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacfe726abf832750800000000000000
+      internalID: 6279020336163781804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_41
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d78297666a592f0800000000000000
+      internalID: -966683585951531711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_42
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba591e5a7736f430800000000000000
+      internalID: 3816298732947331773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_43
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 70
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa88a4768f058ad60800000000000000
+      internalID: 7901654574036584623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_44
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3753423f24235c70800000000000000
+      internalID: 8958543868895385405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_45
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648b444c20cd19f70800000000000000
+      internalID: 9192370218880776262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_46
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 70
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b103b89d6473440800000000000000
+      internalID: 4915475418455219018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_47
+      rect:
+        serializedVersion: 2
+        x: 3825
+        y: 70
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a2f10daa0eb4f40800000000000000
+      internalID: 5713907576490371690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteLine_48
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde6250285b22990800000000000000
+      internalID: -7412162466661601869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CuteLine_0: -4219554164587767012
+      CuteLine_1: -1036325672238324370
+      CuteLine_10: -1057812934934300269
+      CuteLine_11: -6961915259440499927
+      CuteLine_12: 7875791538172446282
+      CuteLine_13: -6126206011214834892
+      CuteLine_14: 8485797554323257259
+      CuteLine_15: 5573245528620904733
+      CuteLine_16: 539001725325827419
+      CuteLine_17: 2638921575853547603
+      CuteLine_18: 1675005859816962343
+      CuteLine_19: -3389556956264298080
+      CuteLine_2: -4586753381439132475
+      CuteLine_20: -2365778165745404003
+      CuteLine_21: 2582430994924737321
+      CuteLine_22: -3150836457185227059
+      CuteLine_23: -3329226414686523244
+      CuteLine_24: -6269717776490760958
+      CuteLine_25: 5507154513420385967
+      CuteLine_26: -7988465282045763290
+      CuteLine_27: -6823024676703618122
+      CuteLine_28: 1916810274671962935
+      CuteLine_29: 5149933807525909483
+      CuteLine_3: 5821152104018980819
+      CuteLine_30: 36744179655355126
+      CuteLine_31: 2206634317490189909
+      CuteLine_32: -6702658687800515662
+      CuteLine_33: 7581319937155494590
+      CuteLine_34: -4769716851167113232
+      CuteLine_35: 3063768456483265553
+      CuteLine_36: 1876243146213636870
+      CuteLine_37: 2463002146350714527
+      CuteLine_38: -7890846659639682449
+      CuteLine_39: -363641335864277365
+      CuteLine_4: -3678365412579235464
+      CuteLine_40: 6279020336163781804
+      CuteLine_41: -966683585951531711
+      CuteLine_42: 3816298732947331773
+      CuteLine_43: 7901654574036584623
+      CuteLine_44: 8958543868895385405
+      CuteLine_45: 9192370218880776262
+      CuteLine_46: 4915475418455219018
+      CuteLine_47: 5713907576490371690
+      CuteLine_48: -7412162466661601869
+      CuteLine_5: -8754944263625333465
+      CuteLine_6: 8553190134566529735
+      CuteLine_7: 6609625900231487153
+      CuteLine_8: 949069257301933478
+      CuteLine_9: 8636808943750455479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
