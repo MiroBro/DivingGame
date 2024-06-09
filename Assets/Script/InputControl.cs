@@ -55,6 +55,14 @@ public class InputControl : MonoBehaviour
         Underwater,
     }
 
+    private enum Direction
+    {
+        Left,
+        Right
+    }
+
+    private Direction currentDirection;
+
     private void Start()
     {
         SetPlayerPhysicsToType(PlayerWorldState.OnLand);
@@ -161,6 +169,18 @@ public class InputControl : MonoBehaviour
 
         if (playerWorldState == PlayerWorldState.Underwater && References.Instance.playerMovingTransform.position.y > waterToLandY)
             popOutOfWater = true;
+
+        if (horizontal != 0)
+        {
+            if (horizontal < 0)
+            {
+                currentDirection = Direction.Left;
+            }
+            else
+            {
+                currentDirection = Direction.Right;
+            }
+        }
     }
 
     private bool GotJumpInput()
@@ -185,61 +205,72 @@ public class InputControl : MonoBehaviour
         {
             PopOutOfWater();
         }
+
+
+        if (playerWorldState == PlayerWorldState.OnLand || playerWorldState == PlayerWorldState.StandingOnWaterLine)
         {
-            if (playerWorldState == PlayerWorldState.OnLand || playerWorldState == PlayerWorldState.StandingOnWaterLine)
+            Vector2 move = References.Instance.playerRigidBody.velocity;
+
+            move.x = horizontal * runSpeed;
+
+            if (jump)
             {
-                Vector2 move = References.Instance.playerRigidBody.velocity;
-
-                move.x = horizontal * runSpeed;
-
-                if (jump)
-                {
-                    move.y = (playerWorldState == PlayerWorldState.StandingOnWaterLine ? 1.2f * jumpSpeed : jumpSpeed);
-                    jump = false;
-                }
-                playerRb.velocity = move;
-
-
-                // Project where our velocity will take us by the end of the frame.
-                Vector2 positionAtEndOfStep = playerRb.position + playerRb.velocity * Time.deltaTime;
-
-                // Limit that projected position to within our allowed bounds.
-                positionAtEndOfStep.y = Mathf.Clamp(positionAtEndOfStep.y, References.Instance.waterTouchControl.transform.position.y, float.MaxValue);
-
-                // Compute a velocity that will take us to this clamped position instead.
-                Vector3 neededVelocity = (positionAtEndOfStep - playerRb.position) / Time.deltaTime;
-
-                // You can also calculate this as the needed velocity change/acceleration,
-                // and add it as a force instead if you prefer.
-                playerRb.velocity = neededVelocity;
-
-
-                //if (References.Instance.playerMovingTransform.position.y <= References.Instance.waterTouchControl.transform.position.y) 
-                //{
-                //    playerRb.MovePosition(new Vector2(playerRb.position.x, References.Instance.waterTouchControl.transform.position.y));
-                //}
+                move.y = (playerWorldState == PlayerWorldState.StandingOnWaterLine ? 1.2f * jumpSpeed : jumpSpeed);
+                jump = false;
             }
-            else if (playerWorldState == PlayerWorldState.Underwater)
-            {
-                // Check for diagonal movement
-                if (horizontal != 0 && vertical != 0)
-                {
-                    horizontal *= moveLimiter;
-                    vertical *= moveLimiter;
-                }
+            playerRb.velocity = move;
 
-                Vector2 move = playerRb.velocity;
-                move.x = horizontal * (swimSlow ? slowSwimSpeed : swimSpeed);
 
-                if (burstDive)
-                {
-                    move.y = divingBoost;
-                    burstDive = false;
-                }
+            // Project where our velocity will take us by the end of the frame.
+            Vector2 positionAtEndOfStep = playerRb.position + playerRb.velocity * Time.deltaTime;
 
-                playerRb.velocity = new Vector3(move.x, divingBoost + vertical * (swimSlow ? slowSwimSpeed : swimSpeed));
-            }
+            // Limit that projected position to within our allowed bounds.
+            positionAtEndOfStep.y = Mathf.Clamp(positionAtEndOfStep.y, References.Instance.waterTouchControl.transform.position.y, float.MaxValue);
+
+            // Compute a velocity that will take us to this clamped position instead.
+            Vector3 neededVelocity = (positionAtEndOfStep - playerRb.position) / Time.deltaTime;
+
+            // You can also calculate this as the needed velocity change/acceleration,
+            // and add it as a force instead if you prefer.
+            playerRb.velocity = neededVelocity;
+
+
+            //if (References.Instance.playerMovingTransform.position.y <= References.Instance.waterTouchControl.transform.position.y) 
+            //{
+            //    playerRb.MovePosition(new Vector2(playerRb.position.x, References.Instance.waterTouchControl.transform.position.y));
+            //}
         }
+        else if (playerWorldState == PlayerWorldState.Underwater)
+        {
+            // Check for diagonal movement
+            if (horizontal != 0 && vertical != 0)
+            {
+                horizontal *= moveLimiter;
+                vertical *= moveLimiter;
+            }
+
+            Vector2 move = playerRb.velocity;
+            move.x = horizontal * (swimSlow ? slowSwimSpeed : swimSpeed);
+
+            if (burstDive)
+            {
+                move.y = divingBoost;
+                burstDive = false;
+            }
+
+            playerRb.velocity = new Vector3(move.x, divingBoost + vertical * (swimSlow ? slowSwimSpeed : swimSpeed));
+        }
+
+        if (currentDirection == Direction.Left)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1, 1,1);
+        }
+            
+
     }
 
     public void SetPlayerPhysicsToType(PlayerWorldState newWorldState)
