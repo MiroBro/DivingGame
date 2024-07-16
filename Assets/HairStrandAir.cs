@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
-public class HairStrand : MonoBehaviour
+public class HairStrand2 : MonoBehaviour
 {
     public int length;
     public LineRenderer lineRend;
@@ -13,15 +14,18 @@ public class HairStrand : MonoBehaviour
     public float targetDist;
     public float maxDist;
     public float smoothSpeed;
-    public float trailSpeed;
+    public float trailSpeedMax;
+    public float trailSpeedMin;
 
     public float wiggleSpeed;
     public float wiggleMagnitude;
     public Transform wiggleDir;
 
-    public float maxYValue;  // Add this variable to set the maximum y-value for segments
+    public float minYValue;  // Add this variable to set the maximum y-value for segments
 
     private bool hasInit = false;
+
+    public Transform player;
 
     private void Start()
     {
@@ -49,12 +53,28 @@ public class HairStrand : MonoBehaviour
         SetHairToCorrectPositions();
     }
 
+    private void FixedUpdate()
+    {
+        SetHairToCorrectPositions();
+    }
+
+    private void LateUpdate()
+    {
+        SetHairToCorrectPositions();
+    }
+
     public void SetHairToCorrectPositions()
     {
         if (!hasInit)
             InitHairStrandDetails();
 
         float deltaTime = Time.deltaTime;
+
+        // Check if the player is moving based on player's velocity
+        bool isMoving = player.GetComponent<Rigidbody2D>().velocity.magnitude > 0.1f;
+
+        // Calculate current trail speed using lerp
+        float currentTrailSpeed = Mathf.Lerp(trailSpeedMin, trailSpeedMax, isMoving ? 0f : 1f);
 
         // Update wiggle direction
         wiggleDir.localRotation = Quaternion.Euler(0f, 0f, (Mathf.Sin(Time.time * wiggleSpeed) * wiggleMagnitude) - Mathf.Sin(wiggleMagnitude) / 2);
@@ -70,7 +90,7 @@ public class HairStrand : MonoBehaviour
         {
             // Calculate the target position for the current segment
             Vector3 targetPosition = segmentPoses[i - 1] + targetDir.right * targetDist;
-            segmentPoses[i] = Vector3.SmoothDamp(segmentPoses[i], targetPosition, ref segmentV[i], smoothSpeed * deltaTime + i / (trailSpeed * deltaTime));
+            segmentPoses[i] = Vector3.SmoothDamp(segmentPoses[i], targetPosition, ref segmentV[i], smoothSpeed * deltaTime + i / (currentTrailSpeed * deltaTime));
 
             // Check distance and clamp to maxDist
             float distance = Vector3.Distance(segmentPoses[i], segmentPoses[i - 1]);
@@ -79,10 +99,10 @@ public class HairStrand : MonoBehaviour
                 segmentPoses[i] = segmentPoses[i - 1] + (segmentPoses[i] - segmentPoses[i - 1]).normalized * maxDist;
             }
 
-            // Clamp the y-value to maxYValue
-            if (segmentPoses[i].y > maxYValue)
+            // Clamp the y-value to minYValue
+            if (segmentPoses[i].y < minYValue)
             {
-                segmentPoses[i].y = maxYValue;
+                segmentPoses[i].y = minYValue;
             }
         }
 
@@ -90,11 +110,9 @@ public class HairStrand : MonoBehaviour
         lineRend.SetPositions(segmentPoses);
     }
 
+
     public void ResetHair()
     {
-        if (!hasInit)
-            InitHairStrandDetails();
-
         // Update the rest of the segments
         for (int i = 0; i < segmentPoses.Length; i++)
         {

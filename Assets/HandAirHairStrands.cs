@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
 
-public class HandleHairStrands : MonoBehaviour
+public class HandAirHairStrands : MonoBehaviour
 {
-    public HairStrand[] allHairStrands;
+    public HairStrand2[] allHairStrands;
     public Gradient strandDisabledColor;
     public Gradient strandEnableColor;
 
@@ -28,9 +27,10 @@ public class HandleHairStrands : MonoBehaviour
 
     public void UpdateAllHairStrands()
     {
-        foreach (var item in allHairStrands) 
+        foreach (var item in allHairStrands)
         {
-            item.SetHairToCorrectPositions();
+            //item.SetHairToCorrectPositions();
+            item.ResetHair();
         }
     }
 }

@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HairStrand : MonoBehaviour
+public class HairSegment : MonoBehaviour
 {
     public int length;
     public LineRenderer lineRend;
@@ -19,7 +17,7 @@ public class HairStrand : MonoBehaviour
     public float wiggleMagnitude;
     public Transform wiggleDir;
 
-    public float maxYValue;  // Add this variable to set the maximum y-value for segments
+    public float minValue;  // Add this variable to set the maximum y-value for segments
 
     private bool hasInit = false;
 
@@ -80,9 +78,9 @@ public class HairStrand : MonoBehaviour
             }
 
             // Clamp the y-value to maxYValue
-            if (segmentPoses[i].y > maxYValue)
+            if (segmentPoses[i].y < minValue)
             {
-                segmentPoses[i].y = maxYValue;
+                segmentPoses[i].y = minValue;
             }
         }
 
@@ -92,9 +90,6 @@ public class HairStrand : MonoBehaviour
 
     public void ResetHair()
     {
-        if (!hasInit)
-            InitHairStrandDetails();
-
         // Update the rest of the segments
         for (int i = 0; i < segmentPoses.Length; i++)
         {

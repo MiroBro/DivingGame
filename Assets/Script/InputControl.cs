@@ -51,7 +51,8 @@ public class InputControl : MonoBehaviour
     public GameObject overWaterHair;
     public GameObject underWaterHair;
 
-    public HandleHairStrands handleHairStrands;
+    public HandleWaterHairStrands handleHairStrands;
+    public HandAirHairStrands handleAirHairStrands;
 
     public enum PlayerWorldState
     {
@@ -305,7 +306,7 @@ public class InputControl : MonoBehaviour
         dive = false;
         waterLine.SetActive(false);
 
-        EnableWaterHair();
+        StartCoroutine(EnableWaterHair());
 
         SetPlayerPhysicsToType(PlayerWorldState.Underwater);
         StartCoroutine(IncreaseSpeed(burstDiveForce, 0, burstDiveForceTime));
@@ -318,42 +319,37 @@ public class InputControl : MonoBehaviour
         popOutOfWater = false;
         waterLine.SetActive(true);
 
-        DisableWaterHair();
+        StartCoroutine(EnableAirHair());
 
         SetPlayerPhysicsToType(PlayerWorldState.OnLand);
         References.Instance.playerRigidBody.velocity = new Vector3(References.Instance.playerRigidBody.velocity.x, 10);
         References.Instance.uiControl.TurnOnBuildingOption();
     }
 
-    private void EnableWaterHair()
+    private IEnumerator EnableWaterHair()
     {
-        StartCoroutine(EnableHair());
-    }
 
-    private IEnumerator EnableHair()
-    {
-        overWaterHair.SetActive(false);
         underWaterHair.SetActive(true);
         handleHairStrands.UpdateAllHairStrands();
 
         yield return new WaitForNextFrameUnit();
 
+        handleAirHairStrands.UpdateAllHairStrands();
+        handleAirHairStrands.DisableAllHairs();
+
+        overWaterHair.SetActive(false);
         handleHairStrands.EnableHairs();
 
     }
 
-    private void DisableWaterHair() 
-    {
-        StartCoroutine(DisableHair());
-    }
-
-    private IEnumerator DisableHair()
+    private IEnumerator EnableAirHair()
     {
         overWaterHair.SetActive(true);
-
-        handleHairStrands.DisableAllHairs();
+        handleAirHairStrands.UpdateAllHairStrands();
 
         yield return new WaitForNextFrameUnit();
+        handleAirHairStrands.EnableHairs();
+        handleHairStrands.DisableAllHairs();
         underWaterHair.SetActive(false);
     }
 
