@@ -357,7 +357,7 @@ public class MapSpawner : MonoBehaviour
             minedOres.Add(atPosition);
             References.Instance.experienceControl.AddExperience(ItemReferences.Instance.GetMineral(Mineral.Iron).value);
             References.Instance.uiControl.ShowPickUpItem(ItemReferences.Instance.GetMineral(spawnedMinerals[atPosition].mineralType), 1);
-            Debug.Log(spawnedMinerals[atPosition].mineralObj.name);
+            //Debug.Log(spawnedMinerals[atPosition].mineralObj.name);
             Destroy(spawnedMinerals[atPosition].mineralObj);
             spawnedMinerals[atPosition].mineralObj = null;
             //spawnedMinerals[atPosition].mineralObj = null;

@@ -51,6 +51,8 @@ public class InputControl : MonoBehaviour
     public GameObject overWaterHair;
     public GameObject underWaterHair;
 
+    public HandleHairStrands handleHairStrands;
+
     public enum PlayerWorldState
     {
         OnLand,
@@ -302,8 +304,8 @@ public class InputControl : MonoBehaviour
     {
         dive = false;
         waterLine.SetActive(false);
-        overWaterHair.SetActive(false);
-        underWaterHair.SetActive(true);
+
+        EnableWaterHair();
 
         SetPlayerPhysicsToType(PlayerWorldState.Underwater);
         StartCoroutine(IncreaseSpeed(burstDiveForce, 0, burstDiveForceTime));
@@ -315,12 +317,44 @@ public class InputControl : MonoBehaviour
         StopAllCoroutines();
         popOutOfWater = false;
         waterLine.SetActive(true);
-        overWaterHair.SetActive(true);
-        underWaterHair.SetActive(false);
+
+        DisableWaterHair();
 
         SetPlayerPhysicsToType(PlayerWorldState.OnLand);
         References.Instance.playerRigidBody.velocity = new Vector3(References.Instance.playerRigidBody.velocity.x, 10);
         References.Instance.uiControl.TurnOnBuildingOption();
+    }
+
+    private void EnableWaterHair()
+    {
+        StartCoroutine(EnableHair());
+    }
+
+    private IEnumerator EnableHair()
+    {
+        overWaterHair.SetActive(false);
+        underWaterHair.SetActive(true);
+        handleHairStrands.UpdateAllHairStrands();
+
+        yield return new WaitForNextFrameUnit();
+
+        handleHairStrands.EnableHairs();
+
+    }
+
+    private void DisableWaterHair() 
+    {
+        StartCoroutine(DisableHair());
+    }
+
+    private IEnumerator DisableHair()
+    {
+        overWaterHair.SetActive(true);
+
+        handleHairStrands.DisableAllHairs();
+
+        yield return new WaitForNextFrameUnit();
+        underWaterHair.SetActive(false);
     }
 
     private float divingBoost;
