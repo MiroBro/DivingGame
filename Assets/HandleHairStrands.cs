@@ -30,7 +30,7 @@ public class HandleHairStrands : MonoBehaviour
     {
         foreach (var item in allHairStrands) 
         {
-            item.SetHairToCorretPositions();
+            item.SetHairToCorrectPositions();
         }
     }
 }

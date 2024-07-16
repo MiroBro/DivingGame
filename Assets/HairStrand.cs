@@ -19,6 +19,8 @@ public class HairStrand : MonoBehaviour
     public float wiggleMagnitude;
     public Transform wiggleDir;
 
+    public float maxYValue;  // Add this variable to set the maximum y-value for segments
+
     private bool hasInit = false;
 
     private void Start()
@@ -44,10 +46,10 @@ public class HairStrand : MonoBehaviour
 
     private void Update()
     {
-        SetHairToCorretPositions();
+        SetHairToCorrectPositions();
     }
 
-    public void SetHairToCorretPositions()
+    public void SetHairToCorrectPositions()
     {
         if (!hasInit)
             InitHairStrandDetails();
@@ -76,6 +78,12 @@ public class HairStrand : MonoBehaviour
             {
                 segmentPoses[i] = segmentPoses[i - 1] + (segmentPoses[i] - segmentPoses[i - 1]).normalized * maxDist;
             }
+
+            // Clamp the y-value to maxYValue
+            if (segmentPoses[i].y > maxYValue)
+            {
+                segmentPoses[i].y = maxYValue;
+            }
         }
 
         // Update the LineRenderer with the new positions
@@ -87,7 +95,7 @@ public class HairStrand : MonoBehaviour
         // Update the rest of the segments
         for (int i = 0; i < segmentPoses.Length; i++)
         {
-                segmentPoses[i] = transform.position;
+            segmentPoses[i] = transform.position;
         }
 
         // Update the LineRenderer with the new positions
