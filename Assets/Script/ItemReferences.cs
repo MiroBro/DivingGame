@@ -5,7 +5,6 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using static UnityEditor.Progress;
 
 public class ItemReferences : MonoBehaviour
 {

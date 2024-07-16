@@ -1,11 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using static FishSpawnControl;
-using static UnityEditor.PlayerSettings;
 
 public class FishSpawnControl : MonoBehaviour
 {

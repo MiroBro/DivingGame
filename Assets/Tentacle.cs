@@ -28,15 +28,20 @@ public class Tentacle : MonoBehaviour
         segmentV = new Vector3[length];
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         wiggleDir.localRotation = Quaternion.Euler(0f, 0f, (Mathf.Sin(Time.time * wiggleSpeed) * wiggleMagnitude) - Mathf.Sin(wiggleMagnitude) / 2);
 
-        segmentPoses[0] = targetDir.position;
+        // Calculate the target position for the first segment
+        Vector3 targetPosition = targetDir.position + targetDir.right * targetDist;
 
+        // Adjust the position of the first segment to be at the minimum distance
+        segmentPoses[0] = targetPosition;
+
+        // Update the rest of the segments
         for (int i = 1; i < segmentPoses.Length; i++)
         {
-            Vector3 targetPosition = segmentPoses[i - 1] + targetDir.right * targetDist;
+            targetPosition = segmentPoses[i - 1] + targetDir.right * targetDist;
             segmentPoses[i] = Vector3.SmoothDamp(segmentPoses[i], targetPosition, ref segmentV[i], smoothSpeed + i / trailSpeed);
 
             // Check distance and clamp to maxDist

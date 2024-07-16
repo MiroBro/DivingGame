@@ -48,6 +48,9 @@ public class InputControl : MonoBehaviour
 
     private Rigidbody2D playerRb;
 
+    public GameObject overWaterHair;
+    public GameObject underWaterHair;
+
     public enum PlayerWorldState
     {
         OnLand,
@@ -299,6 +302,9 @@ public class InputControl : MonoBehaviour
     {
         dive = false;
         waterLine.SetActive(false);
+        overWaterHair.SetActive(false);
+        underWaterHair.SetActive(true);
+
         SetPlayerPhysicsToType(PlayerWorldState.Underwater);
         StartCoroutine(IncreaseSpeed(burstDiveForce, 0, burstDiveForceTime));
         References.Instance.uiControl.TurnOffBuildingOption();
@@ -309,6 +315,9 @@ public class InputControl : MonoBehaviour
         StopAllCoroutines();
         popOutOfWater = false;
         waterLine.SetActive(true);
+        overWaterHair.SetActive(true);
+        underWaterHair.SetActive(false);
+
         SetPlayerPhysicsToType(PlayerWorldState.OnLand);
         References.Instance.playerRigidBody.velocity = new Vector3(References.Instance.playerRigidBody.velocity.x, 10);
         References.Instance.uiControl.TurnOnBuildingOption();
